@@ -1,6 +1,6 @@
 import React from 'react'
 import footerLogo from "../../public/assets/Footer/Logo.png"
-import Banner from "../../public/assets/Footer/1720140787056.jpg"
+// import Banner from "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbKWVCsBImt53r4gl7Q0l_PO5fDpDdXeE-yw&s"
 // import { FaInstagram } from 'react-icons/fa6';
 
 
@@ -14,7 +14,7 @@ import {
 } from 'react-icons/fa';
 
 const BannerImg = {
-  backgroundImage: `url(${Banner})`,
+  backgroundImage: `url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbKWVCsBImt53r4gl7Q0l_PO5fDpDdXeE-yw&s)`,
   backgroundPosition: "bottom",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
@@ -78,7 +78,7 @@ const footer = () => {
           </div>
           {/* Footer Links */}
           
-          <div className='grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10'>
+          <div className='grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10 font-bold'>
             <div>
               <div className='py-8 px-4'>
                 <h1 className='sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3'>Important Links</h1>
@@ -94,7 +94,7 @@ const footer = () => {
                 </ul>
               </div>
             </div>
-            <div className='py-8 px-4'>
+            <div className='py-8 px-4 font-bold'>
                 <h1 className='sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3'>Links</h1>
                 <ul className='flex flex-col gap-3'>
                   {
@@ -120,7 +120,7 @@ const footer = () => {
                   <FaLinkedin className='text-3xl'/>
                 </a>
               </div>
-              <div className='mt-6'>
+              <div className='mt-6 font-bold'>
                     <div className='flex items-center gap-3'>
                       <FaLocationArrow />
                       <p>Noida, Uttar Pradesh</p>

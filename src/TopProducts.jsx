@@ -1,8 +1,8 @@
-import React from 'react'
-import Products from './components/Products'
-import Img1 from '../public/assets/shirt/2.png'
-import Img2 from '../public/assets/shirt/Group_66.png'
-import Img3 from '../public/assets/shirt/Group_69.png'
+// import React from 'react'
+// import Products from './components/Products'
+import Img1 from '/assets/shirt/2.png'
+import Img2 from '/assets/shirt/Group_66.png'
+import Img3 from '/assets/shirt/Group_69.png'
 import { FaStar } from "react-icons/fa";
 
 const ProductsData = [
@@ -49,6 +49,7 @@ const TopProducts = () => {
                     {
                         ProductsData.map((data) => (
                             <div
+                            key={data.id}
                             data-aos='zoom-in'
                                 className='rounded-2xl bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-primary hover:text-white relative shadow-xl duration-300 group max-w-[300px] '
                             >

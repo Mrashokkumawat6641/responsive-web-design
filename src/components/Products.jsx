@@ -1,10 +1,10 @@
-import React from 'react';
+// import React from 'react';
 
-import Img1 from "../../public/assets/Women/freepik__upload__88337.jpeg"
+import Img1 from "/assets/Women/freepik__upload__88337.jpeg"
 // import Img1 from ""
-import Img2 from "../../public/assets/Women/freepik__upload__13854.jpeg"
-import Img3 from "../../public/assets/Women/freepik__upload__88337.jpeg"
-import Img4 from "../../public/assets/Women/freepik__upload__13854.jpeg"
+import Img2 from "/assets/Women/freepik__upload__13854.jpeg"
+import Img3 from "/assets/Women/freepik__upload__88337.jpeg"
+import Img4 from "/assets/Women/freepik__upload__13854.jpeg"
 // import Img5 from "../../public/assets/Women/freepik__upload__88337.jpeg"
 import { FaStar } from "react-icons/fa6"
 

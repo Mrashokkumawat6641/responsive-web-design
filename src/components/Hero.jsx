@@ -1,7 +1,7 @@
-import React from 'react'
-import Image1 from "../../public/assets/hero/ecom.png"
-import Image2 from "../../public/assets/hero/Mask_Group.png"
-import Image3 from "../../public/assets/hero/girlshopping.png"
+// import React from 'react'
+import Image1 from "/assets/hero/ecom.png"
+import Image2 from "/assets/hero/Mask_Group.png"
+import Image3 from "/assets/hero/girlshopping.png"
 import Slider from "react-slick";
 
 const ImageList = [
@@ -56,7 +56,7 @@ const Hero = () => {
                 {/* Hero Section */}
                 <Slider {...settings}>
                     {ImageList.map((data) => (
-                        <div>
+                        <div key={data.id}>
                             <div className='grid grid-cols-1 sm:grid-cols-2'>
                                 {/* Text Content Section */}
 

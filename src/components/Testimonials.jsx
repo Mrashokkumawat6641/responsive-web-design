@@ -1,5 +1,4 @@
-import { data } from 'autoprefixer'
-import React from 'react'
+// import React from 'react'
 import Slider from 'react-slick'
 
 const TestimonialData = [
@@ -94,9 +93,8 @@ const Testimonials = () => {
                 <div data-aos="zoom-in">
                     <Slider {...settings}>
                         {TestimonialData.map((data) => (
-                            <div className='my-6 dark:text-white'>
+                            <div key={data.id} className='my-6 dark:text-white'>
                             <div
-                            key={data.id}
                             className='flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative dark:text-white'
                             >
                                 <div className='mb-4'>

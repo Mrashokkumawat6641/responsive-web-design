@@ -1,5 +1,5 @@
 
-import React from 'react';
+// import React from 'react';
 import { IoMdSearch } from "react-icons/io";
 import {FaCartShopping } from "react-icons/fa6";
 import {FaCaretDown} from "react-icons/fa";
@@ -52,12 +52,17 @@ const DropdownLinks = [
         link: "https://brandirectory.com/rankings/apparel/table",
     },
 ];
+const handleOrderPopup = () => {
+    // Add your order popup logic here
+    console.log("Order popup clicked");
+};
+
 const Navbar = () => {
     return <div>
         {/* { upper Navbar} */}
         <div className='shadow-md bg-orange-200 dark:text-white duration-200 relative z-40 cursor-pointer focus:border-primary dark:border-b-gray-500 dark:bg-orange-500'>
             <div className='flex py-2 '>
-                <div className='container flex justify-between items-center  '>
+                <div className='container flex justify-between items-center '>
                     <a href="#" className='font-bold text-2xl sm:text-3xl flex gap-2'>
                         <img className='w-10 ' src='/assets/Logo.png' alt="Logo" />
                         Shopsy

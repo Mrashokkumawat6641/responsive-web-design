@@ -30,7 +30,7 @@ const TopProducts = () => {
     return (
         <div className='dark:bg-gray-900 dark:text-white'>
             <div className='container dark:bg-gray-900/40'>
-                {/* Header Section */}  
+                {/* Header Section */}
                 <div className=' text-left mb-24 '>
                     <p
                         data-aos="fade-up"
@@ -49,8 +49,8 @@ const TopProducts = () => {
                     {
                         ProductsData.map((data) => (
                             <div
-                            key={data.id}
-                            data-aos='zoom-in'
+                                key={data.id}
+                                data-aos='zoom-in'
                                 className='rounded-2xl bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-primary hover:text-white relative shadow-xl duration-300 group max-w-[300px] '
                             >
                                 {/* Image Section */}
@@ -72,7 +72,6 @@ const TopProducts = () => {
                                     <h1 className='text-xl font-bold'>{data.title}</h1>
                                     <p className='text-gray-500 group-hover:text-white duration-300 text-sm line-clamp-2'>{data.description}</p>
                                     <button className='bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-primary'
-                                    // onClick={handleOrderPoup}
                                     >
                                         Order Now
                                     </button>

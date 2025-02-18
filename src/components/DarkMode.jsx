@@ -21,18 +21,18 @@ const DarkMode = () => {
         }
 
 
-    },[theme]);
+    }, [theme]);
     return (
         <div className='relative py-2'>
 
             <img
                 src={LightButton}
                 alt=""
-                onClick={() => setTheme( theme === 'light' ? 'dark' : 'light')}
+                onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
                 className={`w-12 cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300    absolute right-0 z-10  ${theme === "dark" ? "opacity-10" : "opacity-100"}`}
             />
             <img src={DarkButton} alt=""
-                onClick={() => setTheme( theme ==='light' ? 'dark' : 'light')}
+                onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
                 className={'w-12 cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300 px-9'}
             />
 
@@ -40,4 +40,3 @@ const DarkMode = () => {
     );
 };
 export default DarkMode;
-

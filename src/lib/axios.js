@@ -1,9 +1,13 @@
 import axios from "axios";
-export const axiosInstance = axios.create({
-    baseURL: 'http://localhost:8080/api/auth/', // API server
-    withCredentials: true, // Matches 'credentials: true' in cors
+
+const axiosInstance = axios.create({
+    baseURL: "http://localhost:8001/api/auth/",
+    withCredentials: true,
     headers: {
-      'Content-Type': 'application/json',
+        "Content-Type": "application/json",
     },
-  });
-  
+});
+
+export default axiosInstance;
+
+

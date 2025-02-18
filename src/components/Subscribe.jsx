@@ -20,8 +20,8 @@ const Subscribe = () => {
     setIsSigningUp(true);
     setTimeout(() => {
       setIsSigningUp(false);
-      navigate('/Signup'); // Redirects to the signup page
-    }, 2000); // Simulating a network request
+      navigate('/registeruser'); 
+    }, 2000); 
   };
 
   return (
@@ -44,17 +44,21 @@ const Subscribe = () => {
           />
           <button
             type="submit"
-            className="btn btn-primary w-full"
+            className="btn btn-primary w-full "
+            data-aos="fade-up"
             onClick={handleSignUp}
             disabled={isSigningUp}
           >
             {isSigningUp ? (
               <>
-                <Loader2 className="size-5 animate-spin" />
+
+                <Loader2 className="size-5 animate-spin"
+                // data-aos="fade-up"
+                />
                 Loading...
               </>
             ) : (
-              "Create Account"
+              "signup"
             )}
           </button>
         </div>

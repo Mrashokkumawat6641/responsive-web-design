@@ -5,3 +5,64 @@
 .contain {
   position: fixed;
 }
+
+input.input.input-bordered.w-full.pl-10 {
+  border-radius: 10px;
+  height: 50px;
+  background-color: grey;
+}
+
+span.label-text.font-medium {
+  color: white;
+  font-size: 20px;
+}
+
+button.btn.btn-primary.w-full {
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+p.text-base-content\/60 {
+  color: white;
+}
+
+h1.text-2xl.font-bold.mt-2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+button.btn.btn-primary.w-full {
+  background-color: cadetblue;
+  padding: 12px;
+  border-radius: 15px;
+}
+
+button.bg-gradient-to-r.from-primary.to-secondary.transition-all.duration-200.text-white.py-1.px-9.rounded-full.flex.items-center.gap-3.group.mx-5.dark\:text-white {
+  height: 50px;
+}
+
+button.bg-gradient-to-r.from-primary.to-secondary.transition-all.duration-200.text-white.py-1.px-9.rounded-full.flex.items-center.gap-3.mx-5 {
+  height: 50px;
+}
+
+.px-9 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.mx-5 {
+  margin-left: -0.75rem;
+  margin-right: 1.25rem;
+}
+
+input.border.p-2.mb-2.w-full.rounded-xl {
+  color: black;
+}
+
+textarea.border.p-2.mb-2.w-full.rounded-xl {
+  color: black;
+}

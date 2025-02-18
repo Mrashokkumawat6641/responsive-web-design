@@ -42,14 +42,6 @@ const ProductsData = [
         color: "Yellow",
         aosDelay: "600",
     },
-    // {
-    //    id:5,
-    //    img: Img5,
-    //    title: "Fashion T-Shirt",
-    //    rating: "4.5",
-    //    author: "Pink",
-    //    aosDelay: "800", 
-    // },
 ]
 
 const Products = () => {
